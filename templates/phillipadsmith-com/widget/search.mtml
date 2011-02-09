@@ -1,0 +1,16 @@
+<div class="widget-search widget">
+    <!--<h3 class="widget-header">Search</h3>-->
+    <div class="widget-content">
+        <form method="get" action="/search">
+            <input type="text" class="search-query ti" name="q" value="<$mt:SearchString$>" />
+<mt:If name="search_results">
+<mt:Else>
+</mt:If>
+            <input type="submit" accesskey="4" value="Search" />
+        </form>
+    </div>
+</div>
+<mt:If name="search_results">
+    <mt:IfTagSearch>
+    </mt:IfTagSearch>
+</mt:If>

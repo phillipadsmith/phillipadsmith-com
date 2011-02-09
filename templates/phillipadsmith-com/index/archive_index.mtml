@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<mt:Include module="HTML Head">
+<title><mt:BlogName encode_html="1"> - <mt:BlogDescription encode_html="1"> - The Archives</title>
+</head>
+<body id="<mt:BlogTemplateSetID>" class="mt-archive-index <mt:PageLayout>">
+<mt:Include module="Banner Header">
+<h1 id="page-title" class="archive-title">Archives</h1>
+
+<div id="articles">
+<ul>
+<mt:Entries lastn="1000">
+<li class="icon-<$mt:EntryPostType$>">
+<span class="action-listing-date"><$mt:EntryDate format="%b %e %Y" $></span>
+<span class="action-listing-title"><a href="<$mt:EntryPermalink$>"><$mt:EntryTitle$></a></span>
+<mt:if tag="EntryCommentCount"><span class="action-listing-comments icon-comment"><$mt:EntryCommentCount$></span></mt:if>
+</li>
+</mt:Entries>
+</ul>
+</div>
+<mt:Include module="Sidebar">
+<br clear="all" />
+<mt:Include module="Banner Footer">
+
+</body>
+</html>

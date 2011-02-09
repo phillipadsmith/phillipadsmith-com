@@ -1,0 +1,79 @@
+<mt:Ignore>
+<!-- Display comments for the entry/page or commenting form if entry/page is accepting comments -->
+</mt:Ignore>
+<mt:IfCommentsActive>
+<section id="comments" class="comments">
+<h1>Comments</h1>
+<mt:Ignore>
+<!-- Display comments -->
+</mt:Ignore>
+<mt:Comments>
+<mt:CommentsHeader>
+<h2 class="comments-header"><mt:EntryCommentCount singular="1 Comment" plural="# Comments" none="No Comments"></h2>
+</mt:CommentsHeader>
+        <mt:Include module="Comment Detail">
+<mt:CommentsFooter>
+</mt:CommentsFooter>
+</mt:Comments>
+</section>
+
+<mt:Ignore>
+<!-- Display commenting form if entry/page is accepting comments -->
+</mt:Ignore>
+<mt:IfCommentsAccepted>
+<section class="comments-open" id="comments-open">
+<h1 class="comments-open-header">Leave a comment</h1>
+<mt:Ignore>
+<!-- Display greeting for users if blog allows users to register locally -->
+</mt:Ignore>
+<div id="comment-status"></div>
+<div id="comment-greeting"></div>
+<form method="post" action="<mt:CGIPath><mt:CommentScript>" name="comments_form" id="comments-form">
+<input type="hidden" name="static" value="1" />
+<input type="hidden" name="entry_id" value="<mt:EntryID>" />
+<input type="hidden" name="__lang" value="<mt:BlogLanguage>" />
+<input type="hidden" name="parent_id" value="<mt:CommentParentID escape="html">" id="comment-parent-id" />
+<input type="hidden" name="armor" value="1" />
+<input type="hidden" name="preview" value="" />
+<input type="hidden" name="sid" value="" />
+<div id="comments-open-data">
+<div id="comment-form-name">
+<label for="comment-author">Name (required)</label>
+<input id="comment-author" name="author" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+</div>
+<div id="comment-form-email">
+<label for="comment-email">Email Address (required, but never published)</label>
+<input id="comment-email" name="email" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+</div>
+<div id="comment-form-url">
+<label for="comment-url">URL</label>
+<input id="comment-url" name="url" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+</div>
+<div id="comment-form-remember-me">
+<input type="checkbox" id="comment-bake-cookie" name="bakecookie" onclick="mtRememberMeOnClick(this)" value="1" accesskey="r" />
+<label for="comment-bake-cookie">Remember personal info?</label>
+</div>
+</div>
+<div id="comment-form-reply" style="display:none">
+<input type="checkbox" id="comment-reply" name="comment_reply" value="" onclick="mtSetCommentParentID()" />
+<label for="comment-reply" id="comment-reply-label"></label>
+</div>
+<div id="comments-open-text">
+<label for="comment-text">Comments (required<mt:IfAllowCommentHTML>; you may use HTML tags for style</mt:IfAllowCommentHTML>)</label>
+<textarea id="comment-text" name="text" rows="15" cols="50" onfocus="mtCommentFormOnFocus()"></textarea>
+</div>
+<div id="comments-open-captcha"></div>
+<div id="comments-open-footer">
+<input type="submit" accesskey="v" name="preview_button" id="comment-preview" value="Preview" onclick="this.form.preview.value='1';" />
+<input type="submit" accesskey="s" name="post" id="comment-submit" value="Submit" />
+</div>
+</form>
+</section>
+<script type="text/javascript">
+<!--
+mtAttachEvent("load", mtEntryOnLoad);
+mtAttachEvent("unload", mtEntryOnUnload);
+//-->
+</script>
+</mt:IfCommentsAccepted>
+</mt:IfCommentsActive>

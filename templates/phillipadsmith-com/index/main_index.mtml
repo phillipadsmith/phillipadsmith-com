@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<mt:Include module="HTML Head">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<mt:Link template="rsd">" />
+<title><mt:BlogName encode_html="1"> - <$mt:BlogDescription$></title>
+</head>
+<body id="<mt:BlogTemplateSetID>" class="mt-main-index <mt:PageLayout>">
+<mt:Include module="Banner Header">
+<div id="articles">
+<mt:Entries>
+<mt:Include module="Entry Summary">
+<mt:ignore><!-- Post Navigator doesn't get the right context here --></mt:ignore>
+<nav id="prev-next-nav">
+<mt:EntryPrevious>
+<span class="previous">&larr; <a href="<$mt:EntryPermalink$>" rel="prev"><$mt:EntryTitle$></a></span>
+</mt:EntryPrevious>
+<br />
+<mt:EntryNext>
+<span class="next"><a href="<$mt:EntryPermalink$>" rel="next"><$mt:EntryTitle$></a> &rarr;</span>
+</mt:EntryNext>
+</nav>
+</mt:Entries>
+</div>
+<mt:Include module="Sidebar">
+<br clear="all" />
+<mt:Include module="Banner Footer">
+</body>
+</html>

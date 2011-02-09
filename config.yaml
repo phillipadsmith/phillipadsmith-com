@@ -1,0 +1,317 @@
+---id: 'phillipadsmith-com'
+key: 'phillipadsmith-com'
+name: 'phillipadsmith-com'
+description: 'HTML5 template set based on the Less framework'
+
+author_link: http://www.phillipadsmith.com
+author_name: 'Phillip Smith'
+template_sets:
+  phillipadsmith-com:
+    base_path: templates/phillipadsmith-com
+    label: phillipadsmith-com
+    options:
+        fieldsets:
+            global:
+                label: 'Global options'
+                hint: 'These options apply everywhere'
+                order: 1
+            tagline:
+                type: text
+                label: 'Tagline'
+                hint: 'Tagline used in the header'
+                tag: 'phillipadsmith-comTagline'
+                fieldset: global
+    templates:
+      archive:
+        category_entry_listing:
+          filename: archive/category_entry_listing.mtml
+          label: 'Category Entry Listing'
+          mappings:
+            category:
+              archive_type: Category
+              build_type: 4
+              preferred: 1
+        entry:
+          filename: archive/entry.mtml
+          label: Entry
+          mappings:
+            individual:
+              archive_type: Individual
+              preferred: 1
+        monthly_entry_listing:
+          filename: archive/monthly_entry_listing.mtml
+          label: 'Monthly Entry Listing'
+          mappings:
+            monthly:
+              archive_type: Monthly
+              build_type: 4
+              preferred: 1
+        page:
+          filename: archive/page.mtml
+          label: Page
+          mappings:
+            page:
+              archive_type: Page
+              preferred: 1
+      index:
+        archive_index:
+          build_type: 4
+          filename: index/archive_index.mtml
+          label: 'Archive Index'
+          outfile: archives.html
+          rebuild_me: 1
+        feed_recent:
+          build_type: 4
+          filename: index/feed_recent.mtml
+          label: 'Feed - Recent Entries'
+          outfile: atom.xml
+          rebuild_me: 1
+        javascript:
+          build_type: 4
+          filename: index/javascript.mtml
+          label: JavaScript
+          outfile: mt.js
+          rebuild_me: 1
+        main_index:
+          filename: index/main_index.mtml
+          label: 'Main Index'
+          outfile: index.html
+          rebuild_me: 1
+        rsd:
+          build_type: 4
+          filename: index/rsd.mtml
+          label: RSD
+          outfile: rsd.xml
+          rebuild_me: 1
+        styles:
+          filename: index/styles.mtml
+          label: Stylesheet
+          outfile: styles.css
+          rebuild_me: 1
+      module:
+        banner_footer:
+          cache:
+            expire_interval: 18000
+            expire_type: 1
+          filename: module/banner_footer.mtml
+          label: 'Banner Footer'
+        banner_header:
+          cache:
+            expire_interval: 18000
+            expire_type: 1
+          filename: module/banner_header.mtml
+          label: 'Banner Header'
+        comment_detail:
+          filename: module/comment_detail.mtml
+          label: 'Comment Detail'
+        comments:
+          filename: module/comments.mtml
+          label: Comments
+        entry_summary:
+          filename: module/entry_summary.mtml
+          label: 'Entry Summary'
+        html_head:
+          cache:
+            expire_interval: 18000
+            expire_type: 1
+          filename: module/html_head.mtml
+          label: 'HTML Head'
+        sidebar:
+          filename: module/sidebar.mtml
+          label: Sidebar
+        trackbacks:
+          filename: module/trackbacks.mtml
+          label: Trackbacks
+      system:
+        comment_preview:
+          filename: system/comment_preview.mtml
+          label: 'Comment Preview'
+        comment_response:
+          filename: system/comment_response.mtml
+          label: 'Comment Response'
+        dynamic_error:
+          filename: system/dynamic_error.mtml
+          label: 'Dynamic Error'
+        popup_image:
+          filename: system/popup_image.mtml
+          label: 'Popup Image'
+        search_results:
+          filename: system/search_results.mtml
+          label: 'Search Results'
+      widget:
+        about_this_page:
+          filename: widget/about_this_page.mtml
+          label: 'About This Page'
+        action_streams:
+          cache:
+            expire_interval: 108000
+            expire_type: 1
+          filename: widget/action_streams.mtml
+          include_with_ssi: 1
+          label: 'Action Streams'
+        archive_widgets_group:
+          cache:
+            expire_interval: 108000
+            expire_type: 1
+          filename: widget/archive_widgets_group.mtml
+          include_with_ssi: 1
+          label: 'Archive Widgets Group'
+        author_archive_list:
+          cache:
+            expire_event: author
+            expire_type: 2
+          filename: widget/author_archive_list.mtml
+          include_with_ssi: 1
+          label: 'Author Archives'
+        calendar:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/calendar.mtml
+          include_with_ssi: 1
+          label: Calendar
+        category_archive_list:
+          cache:
+            expire_event: category
+            expire_type: 2
+          filename: widget/category_archive_list.mtml
+          include_with_ssi: 1
+          label: 'Category Archives'
+        creative_commons:
+          cache:
+            expire_interval: 216000
+            expire_type: 1
+          filename: widget/creative_commons.mtml
+          include_with_ssi: 1
+          label: 'Creative Commons'
+        current_author_monthly_archive_list:
+          filename: widget/current_author_monthly_archive_list.mtml
+          label: 'Current Author Monthly Archives'
+        current_category_monthly_archive_list:
+          filename: widget/current_category_monthly_archive_list.mtml
+          label: 'Current Category Monthly Archives'
+        date_based_author_archives:
+          cache:
+            expire_event: author
+            expire_type: 2
+          filename: widget/date_based_author_archives.mtml
+          include_with_ssi: 1
+          label: 'Date-Based Author Archives'
+        date_based_category_archives:
+          cache:
+            expire_event: category
+            expire_type: 2
+          filename: widget/date_based_category_archives.mtml
+          include_with_ssi: 1
+          label: 'Date-Based Category Archives'
+        main_index_widgets_group:
+          filename: widget/main_index_widgets_group.mtml
+          label: 'Home Page Widgets Group'
+        monthly_archive_dropdown:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/monthly_archive_dropdown.mtml
+          include_with_ssi: 1
+          label: 'Monthly Archives Dropdown'
+        monthly_archive_list:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/monthly_archive_list.mtml
+          include_with_ssi: 1
+          label: 'Monthly Archives'
+        openid:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/openid.mtml
+          include_with_ssi: 1
+          label: 'OpenID Accepted'
+        other_profiles:
+          cache:
+            expire_interval: 18000
+            expire_type: 1
+          filename: widget/other_profiles.mtml
+          include_with_ssi: 1
+          label: 'Action Streams Profiles'
+        pages_list:
+          cache:
+            expire_interval: 18000
+            expire_type: 1
+          filename: widget/pages_list.mtml
+          include_with_ssi: 1
+          label: 'Page Listing'
+        powered_by:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/powered_by.mtml
+          include_with_ssi: 1
+          label: 'Powered By'
+        recent_assets:
+          cache:
+            expire_event: asset
+            expire_type: 2
+          filename: widget/recent_assets.mtml
+          include_with_ssi: 1
+          label: 'Recent Assets'
+        recent_comments:
+          cache:
+            expire_event: comment
+            expire_type: 2
+          filename: widget/recent_comments.mtml
+          include_with_ssi: 1
+          label: 'Recent Comments'
+        recent_entries:
+          cache:
+            expire_event: entry
+            expire_type: 2
+          filename: widget/recent_entries.mtml
+          include_with_ssi: 1
+          label: 'Recent Entries'
+        search:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/search.mtml
+          include_with_ssi: 1
+          label: Search
+        signin:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/signin.mtml
+          include_with_ssi: 1
+          label: 'Sign In'
+        syndication:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/syndication.mtml
+          include_with_ssi: 1
+          label: Syndication
+        tag_cloud:
+          cache:
+            expire_interval: 216000
+            expire_type: 1
+          filename: widget/tag_cloud.mtml
+          include_with_ssi: 1
+          label: 'Tag Cloud'
+        technorati_search:
+          cache:
+            expire_interval: 1296000
+            expire_type: 1
+          filename: widget/technorati_search.mtml
+          include_with_ssi: 1
+          label: 'Technorati Search'
+      widgetset:
+        2-column_layout_-_sidebar:
+          filename: widgetset/2-column_layout_-_sidebar.mtml
+          label: '2-column layout - Sidebar'
+        3-column_layout_-_primary_sidebar:
+          filename: widgetset/3-column_layout_-_primary_sidebar.mtml
+          label: '3-column layout - Primary Sidebar'
+        3-column_layout_-_secondary_sidebar:
+          filename: widgetset/3-column_layout_-_secondary_sidebar.mtml
+          label: '3-column layout - Secondary Sidebar'

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<mt:Include module="HTML Head">
+<mt:EntryPrevious><link rel="prev bookmark" href="<mt:EntryPermalink>" title="<mt:EntryTitle encode_html="1">" /></mt:EntryPrevious>
+<mt:EntryNext><link rel="next bookmark" href="<mt:EntryPermalink>" title="<mt:EntryTitle encode_html="1">" /></mt:EntryNext>
+<mt:EntryTrackbackData>
+<title><mt:EntryTitle encode_html="1"> - <mt:BlogName encode_html="1"></title>
+</head>
+<body id="<mt:BlogTemplateSetID>" class="mt-entry-archive <mt:PageLayout>">
+<mt:Include module="Banner Header">
+<div id="articles">
+<mt:Include module="Entry Summary">
+<mt:ignore><!-- Post Navigator doesn't get the right context here --></mt:ignore>
+<nav id="prev-next-nav">
+<mt:EntryPrevious>
+<span class="previous">&larr; <a href="<$mt:EntryPermalink$>" rel="prev"><$mt:EntryTitle$></a></span>
+</mt:EntryPrevious>
+<br />
+<mt:EntryNext>
+<span class="next"><a href="<$mt:EntryPermalink$>" rel="next"><$mt:EntryTitle$></a> &rarr;</span>
+</mt:EntryNext>
+</nav>
+</div>
+<mt:Include module="Sidebar">
+<br clear="all" />
+<mt:Include module="Banner Footer">
+</body>
+</html>
