@@ -9,18 +9,6 @@ template_sets:
   phillipadsmith-com:
     base_path: templates/phillipadsmith-com
     label: phillipadsmith-com
-    options:
-        fieldsets:
-            global:
-                label: 'Global options'
-                hint: 'These options apply everywhere'
-                order: 1
-            tagline:
-                type: text
-                label: 'Tagline'
-                hint: 'Tagline used in the header'
-                tag: 'phillipadsmith-comTagline'
-                fieldset: global
     templates:
       archive:
         category_entry_listing:
