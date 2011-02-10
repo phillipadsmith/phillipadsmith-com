@@ -1,0 +1,406 @@
+/* Less Framework 3
+ * by Joni Korpi
+ * http://lessframework.com */
+/* line 8, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/reset/_utilities.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 15, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/reset/_utilities.scss */
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+  display: block;
+}
+
+/* line 19, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/reset/_utilities.scss */
+a img {
+  border: 0;
+}
+
+/* line 21, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/reset/_utilities.scss */
+figure {
+  position: relative;
+}
+
+/* line 22, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/reset/_utilities.scss */
+figure img {
+  width: 100%;
+}
+
+/* line 35, ../../../../../../.gem/ruby/1.8/gems/compass-less-plugin-0.8/stylesheets/lessframework/text/_15.scss */
+body {
+  font: 16px/24px Helvetica, Arial, sans-serif;
+}
+
+/* Compas */
+/* Text elements
+-------------------------------------------------------------- */
+/* line 25, ../src/styles.scss */
+article p {
+  margin: 0 0 1.5em;
+}
+
+/* line 27, ../src/styles.scss */
+article ul, article ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 28, ../src/styles.scss */
+article ul {
+  list-style-type: circle;
+}
+
+/* line 29, ../src/styles.scss */
+article ol {
+  list-style-type: decimal;
+}
+
+/* line 31, ../src/styles.scss */
+article dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 32, ../src/styles.scss */
+article dl dt {
+  font-weight: bold;
+}
+
+/* line 33, ../src/styles.scss */
+article dl dd {
+  margin-left: 1.5em;
+}
+
+/* line 35, ../src/styles.scss */
+article abbr, article acronym {
+  border-bottom: 1px dotted #000;
+}
+
+/* line 36, ../src/styles.scss */
+article address {
+  margin-top: 1.5em;
+  font-style: italic;
+}
+
+/* line 37, ../src/styles.scss */
+article del {
+  color: #000;
+}
+
+/* line 39, ../src/styles.scss */
+a {
+  color: #009;
+  text-decoration: none;
+}
+
+/* line 40, ../src/styles.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 42, ../src/styles.scss */
+article blockquote {
+  margin: 1.5em;
+}
+
+/* line 43, ../src/styles.scss */
+article strong {
+  font-weight: bold;
+}
+
+/* line 44, ../src/styles.scss */
+article em, article dfn {
+  font-style: italic;
+}
+
+/* line 45, ../src/styles.scss */
+article dfn {
+  font-weight: bold;
+}
+
+/* line 46, ../src/styles.scss */
+article pre, article code {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 47, ../src/styles.scss */
+article pre, article code, article tt {
+  font: 1em monospace;
+  line-height: 1.5;
+}
+
+/* line 48, ../src/styles.scss */
+article tt {
+  display: block;
+  margin: 1.5em 0;
+  line-height: 1.5;
+}
+
+/* line 50, ../src/styles.scss */
+.hidden {
+  display: none;
+}
+
+/* line 52, ../src/styles.scss */
+h1 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+/* line 56, ../src/styles.scss */
+h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* line 64, ../src/styles.scss */
+section h1 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* line 65, ../src/styles.scss */
+section h2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 67, ../src/styles.scss */
+body {
+  background: #e8e8e8;
+  -webkit-tap-highlight-color: yellow;
+}
+
+/* line 71, ../src/styles.scss */
+header#header hgroup {
+  background: url("http://www.gravatar.com/avatar/797eaf79f0fd5469ba53af0d56f2689c.png") top left no-repeat;
+  padding: 0 0 0 100px;
+}
+
+/* line 76, ../src/styles.scss */
+form#search input {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* line 82, ../src/styles.scss */
+header#header ul li {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+header#header ul li, header#header ul li li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/* line 86, ../src/styles.scss */
+header nav {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+}
+
+/* line 91, ../src/styles.scss */
+header {
+  margin-bottom: 10px;
+}
+
+/* line 93, ../src/styles.scss */
+article div.asset-body img {
+  border: 1px solid #f0f0f0;
+  padding: 2px;
+}
+
+/* line 94, ../src/styles.scss */
+article footer h3 {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline;
+  font-weight: normal;
+}
+
+/* line 99, ../src/styles.scss */
+article footer ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+article footer ul, article footer ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/* line 104, ../src/styles.scss */
+section#trackbacks, article.comment {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-top: 10px;
+}
+
+/* line 108, ../src/styles.scss */
+section.comments-open {
+  margin-top: 20px;
+}
+
+/* line 111, ../src/styles.scss */
+section#trackbacks, section#comments {
+  padding-left: 20px;
+}
+
+/* line 113, ../src/styles.scss */
+nav#prev-next-nav {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* line 118, ../src/styles.scss */
+div#articles {
+  float: left;
+  width: 69%;
+}
+
+/* line 119, ../src/styles.scss */
+aside#sidebar {
+  float: right;
+  width: 30%;
+}
+
+/* line 121, ../src/styles.scss */
+footer {
+  margin: 40px 0 40px 0;
+}
+
+/* Archive */
+/* line 127, ../src/styles.scss */
+body.mt-archive-index div#articles ul {
+  list-style: none;
+}
+/* line 11, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+body.mt-archive-index div#articles ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/* line 128, ../src/styles.scss */
+body.mt-archive-index span.icon-comment {
+  display: none;
+}
+
+/* Search */
+/* line 132, ../src/styles.scss */
+body.mt-search-results h1.search-results-header {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0 20px 0;
+}
+
+/* line 133, ../src/styles.scss */
+body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
+  display: none;
+}
+
+/* line 134, ../src/styles.scss */
+body.mt-search-results article.entry-asset {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-bottom: 20px;
+}
+
+/* Flexible layouts */
+/* Default 8-column layout
+ * For tablets at 768 px, netbooks, and old browsers. */
+/* line 4, ../src/partials/_8.scss */
+body {
+  width: 648px;
+  padding: 84px 60px 0;
+}
+
+/* 13-column layout
+ * For laptops, desktops, and hdtvs at 1280 px and beyond. */
+@media only screen and (min-width: 1212px) {
+  /* line 5, ../src/partials/_13.scss */
+  body {
+    width: 1068px;
+    padding: 96px 72px 0;
+  }
+}
+
+/* 5-column layout
+ * For 480 px mobiles, narrow browsers, and landscape iPhones. */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  /* line 5, ../src/partials/_5.scss */
+  body {
+    width: 396px;
+    padding: 60px 42px 0;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* line 9, ../src/partials/_5.scss */
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  /* line 10, ../src/partials/_5.scss */
+  h2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* line 11, ../src/partials/_5.scss */
+  h3 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+/* 3-column layout
+ * For all iPhones, iPod Touches, and other 320 px mobiles. */
+@media only screen and (max-width: 479px) {
+  /* line 5, ../src/partials/_3.scss */
+  body {
+    width: 228px;
+    padding: 48px 46px 0;
+    -webkit-text-size-adjust: 100%;
+    font-size: 95%;
+  }
+
+  /* line 10, ../src/partials/_3.scss */
+  h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* line 11, ../src/partials/_3.scss */
+  h2 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* line 12, ../src/partials/_3.scss */
+  h3 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* line 13, ../src/partials/_3.scss */
+  header#header hgroup {
+    background: none;
+    padding: 0px;
+  }
+}
+
+/* Overrides for iPhone 4
+ * and other high device-pixel-ratio devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {}

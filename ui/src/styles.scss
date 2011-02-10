@@ -1,0 +1,143 @@
+/* Less Framework 3
+ * by Joni Korpi
+ * http://lessframework.com */
+
+@import "partials/base";
+@import "lessframework/reset";
+@import "lessframework/text/15";
+
+/* Compas */
+@import "compass/utilities/lists";
+
+$background-color: rgb(232,232,232);
+$border-color: rgb(240, 240, 240);
+$highlight-color: rgb(255, 255, 0);
+
+@mixin borders {
+    border-bottom: 1px solid $border-color;
+    padding: 10px 0 10px 0;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+ 
+article p { margin: 0 0 1.5em; }
+ 
+article ul, article ol { margin: 0 1.5em 1.5em 1.5em; }
+article ul { list-style-type: circle; }
+article ol { list-style-type: decimal; }
+ 
+article dl { margin: 0 0 1.5em 0; }
+article dl dt { font-weight: bold; }
+article dl dd { margin-left: 1.5em; }
+ 
+article abbr, article acronym { border-bottom: 1px dotted #000; }
+article address { margin-top: 1.5em; font-style: italic; }
+article del { color: #000; }
+ 
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ 
+article blockquote { margin: 1.5em; }
+article strong { font-weight: bold; }
+article em, article dfn { font-style: italic; }
+article dfn { font-weight: bold; }
+article pre, article code { margin: 1.5em 0; white-space: pre; }
+article pre, article code, article tt { font: 1em monospace; line-height: 1.5; } 
+article tt { display: block; margin: 1.5em 0; line-height: 1.5; }
+
+.hidden { display: none; }
+
+h1 {
+    @include large;
+}
+
+h2 {
+    @include big;
+}
+
+h3 {
+
+}
+
+section h1 { @include big; }
+section h2 { @include normal; }
+
+body {
+  background: $background-color;
+  -webkit-tap-highlight-color: $highlight-color; }
+
+header#header hgroup {
+    background: url('http://www.gravatar.com/avatar/797eaf79f0fd5469ba53af0d56f2689c.png') top left no-repeat;
+    padding: 0 0 0 100px;
+}
+
+form#search input {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+header#header ul li {
+    @include inline-list;
+}
+
+header nav {
+    @include borders;
+    margin-top: 20px;
+}
+
+header { margin-bottom: 10px; }
+
+article div.asset-body img { border: 1px solid $border-color; padding: 2px;}
+article footer h3 { 
+    @include normal;
+    display: inline; 
+    font-weight: normal;
+}
+article footer ul {
+    @include inline-list;
+}
+
+
+section#trackbacks, article.comment {
+    @include borders;
+    margin-top: 10px;
+}
+section.comments-open {
+    margin-top: 20px;
+}
+section#trackbacks, section#comments { padding-left: 20px; }
+
+nav#prev-next-nav {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+div#articles { float: left; width: 69%; }
+aside#sidebar { float: right; width: 30%;
+}
+footer {
+    margin: 40px 0 40px 0;
+}
+
+/* Archive */
+
+body.mt-archive-index div#articles ul { @include no-bullets; }
+body.mt-archive-index span.icon-comment { display: none; }
+
+/* Search */
+
+body.mt-search-results h1.search-results-header { @include normal; margin: 20px 0 20px 0; }
+body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open { display: none; }
+body.mt-search-results article.entry-asset { @include borders; margin-bottom: 20px; }
+
+/* Flexible layouts */ 
+@import "partials/8";
+@import "partials/13";
+@import "partials/5";
+@import "partials/3";
+@import "partials/iphone4";
+
+
