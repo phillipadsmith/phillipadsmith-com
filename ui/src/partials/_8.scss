@@ -2,4 +2,12 @@
  * For tablets at 768 px, netbooks, and old browsers. */
 
 body {
-  @include grid(8); }
+  @include grid(8);
+    /* This is where we adjust the layout based on the viewport */
+}
+div#articles { float: left; width: 100%; }
+aside#sidebar { display: none; }
+aside#about #summary { float: left; width: 60%; padding-right: 8px; }
+aside#about #contact { float: right; width: 39%; }
+
+

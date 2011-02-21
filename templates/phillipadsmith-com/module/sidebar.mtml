@@ -7,4 +7,21 @@
 --></mt:Ignore>
 <aside id="sidebar">
 
+<mt:If tag="EntryPhoto">
+<mt:EntryPhotoAsset>
+<a href="<mt:AssetURL>" title="Click to enlarge">
+<mt:CroppedAsset label="Large">
+<img src="<$mt:AssetURL$>" alt="Image for <mt:EntryTitle>"/>
+</mt:CroppedAsset>
+</a>
+<mt:If tag="AssetDescription">
+<p><mt:AssetDescription></p>
+</mt:If>
+</mt:EntryPhotoAsset>
+</mt:If>
+
+<mt:If tag="EntryEmbedCode">
+Embed Object: <mt:EntryEmbedCode>
+</mt:If>
+
 </aside>

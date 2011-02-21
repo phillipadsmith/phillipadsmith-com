@@ -9,4 +9,9 @@
 h1 { @include big; }
 h2 { @include normal; }
 h3 { @include small; }
+div#articles { float: left; width: 100%; }
+aside#sidebar { float: left; width: 100%;}
+aside#about #summary { float: left; width: 100%; }
+aside#about #summary ul { padding: 0; margin: 0; }
+aside#about #contact { float: left; width: 100%; }
 }

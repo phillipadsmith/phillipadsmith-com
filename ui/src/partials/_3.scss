@@ -10,5 +10,14 @@
 h1 { @include normal; }
 h2 { @include small; }
 h3 { @include small; }
+aside#about h1, section h1 { @include normal; }
 header#header hgroup { background: none; padding: 0px; }
+div#articles { float: left; width: 100%; }
+aside#sidebar { display: none; }
+aside#about #summary { float: left; width: 100%; }
+aside#about #summary ul { padding: 0; margin: 0; }
+aside#about #contact { float: left; width: 100%; }
+header#header nav ul li.email, aside#about div#contact ul li.email { background: none; padding: 0; }
+header#header nav ul li.twitter, aside#about div#contact ul li.twitter  { background: none; padding: 0; }
+header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin  { background: none; padding: 0; }
 }

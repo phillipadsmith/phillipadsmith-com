@@ -1,17 +1,13 @@
 <mt:Ignore><!-- Display TrackBacks for the entry/page or TrackBack details if TrackBacks are being accepted --></mt:Ignore>
 <mt:IfPingsActive>
 <section id="trackbacks">
+<mt:if tag="EntryTrackbackCount">
 <hgroup>
 <h1>Trackbacks</h1>
-<mt:if tag="EntryTrackbackCount">
 <h2 class="trackbacks-header"><mt:EntryTrackbackCount singular="1 TrackBack" plural="# TrackBacks" none="No TrackBacks"></h2>
-</mt:if>
 </hgroup>
+</mt:if>
 <mt:Ignore><!-- Display TrackBack details if TrackBacks are being accepted --></mt:Ignore>
-
-<mt:IfPingsAccepted>
-<p class="trackbacks-info">TrackBack URL: <$mt:BlogURL$>trackback/<$mt:EntryTrackbackID$></p>
-</mt:IfPingsAccepted>
 
 <mt:Ignore><!-- Display TrackBacks --></mt:Ignore>
 <mt:Pings>

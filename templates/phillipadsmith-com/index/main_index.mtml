@@ -14,19 +14,19 @@
 <div id="articles">
 <mt:Entries>
 <mt:Include module="Entry Summary">
+<mt:Include module="Sidebar">
 <mt:ignore><!-- Post Navigator doesn't get the right context here --></mt:ignore>
 <nav id="prev-next-nav">
 <mt:EntryPrevious>
 <span class="previous">&larr; <a href="<$mt:EntryPermalink$>" rel="prev"><$mt:EntryTitle$></a></span>
 </mt:EntryPrevious>
-<br />
 <mt:EntryNext>
 <span class="next"><a href="<$mt:EntryPermalink$>" rel="next"><$mt:EntryTitle$></a> &rarr;</span>
 </mt:EntryNext>
 </nav>
 </mt:Entries>
 </div>
-<mt:Include module="Sidebar">
+<mt:Include module="About">
 <br clear="all" />
 <mt:Include module="Banner Footer">
 </body>

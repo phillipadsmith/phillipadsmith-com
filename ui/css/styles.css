@@ -43,184 +43,290 @@ body {
 /* Compas */
 /* Text elements
 -------------------------------------------------------------- */
-/* line 25, ../src/styles.scss */
+/* line 27, ../src/styles.scss */
 article p {
   margin: 0 0 1.5em;
 }
 
-/* line 27, ../src/styles.scss */
+/* line 29, ../src/styles.scss */
 article ul, article ol {
   margin: 0 1.5em 1.5em 1.5em;
 }
 
-/* line 28, ../src/styles.scss */
+/* line 30, ../src/styles.scss */
 article ul {
   list-style-type: circle;
 }
 
-/* line 29, ../src/styles.scss */
+/* line 31, ../src/styles.scss */
 article ol {
   list-style-type: decimal;
 }
 
-/* line 31, ../src/styles.scss */
+/* line 33, ../src/styles.scss */
 article dl {
   margin: 0 0 1.5em 0;
 }
 
-/* line 32, ../src/styles.scss */
+/* line 34, ../src/styles.scss */
 article dl dt {
   font-weight: bold;
 }
 
-/* line 33, ../src/styles.scss */
+/* line 35, ../src/styles.scss */
 article dl dd {
   margin-left: 1.5em;
 }
 
-/* line 35, ../src/styles.scss */
+/* line 37, ../src/styles.scss */
 article abbr, article acronym {
   border-bottom: 1px dotted #000;
 }
 
-/* line 36, ../src/styles.scss */
+/* line 38, ../src/styles.scss */
 article address {
   margin-top: 1.5em;
   font-style: italic;
 }
 
-/* line 37, ../src/styles.scss */
+/* line 39, ../src/styles.scss */
 article del {
   color: #000;
 }
 
-/* line 39, ../src/styles.scss */
+/* line 41, ../src/styles.scss */
 a {
   color: #009;
   text-decoration: none;
 }
 
-/* line 40, ../src/styles.scss */
+/* line 42, ../src/styles.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 42, ../src/styles.scss */
+/* line 44, ../src/styles.scss */
 article blockquote {
   margin: 1.5em;
 }
 
-/* line 43, ../src/styles.scss */
+/* line 45, ../src/styles.scss */
 article strong {
   font-weight: bold;
 }
 
-/* line 44, ../src/styles.scss */
+/* line 46, ../src/styles.scss */
 article em, article dfn {
   font-style: italic;
 }
 
-/* line 45, ../src/styles.scss */
+/* line 47, ../src/styles.scss */
 article dfn {
   font-weight: bold;
 }
 
-/* line 46, ../src/styles.scss */
+/* line 48, ../src/styles.scss */
 article pre, article code {
   margin: 1.5em 0;
   white-space: pre;
 }
 
-/* line 47, ../src/styles.scss */
+/* line 49, ../src/styles.scss */
 article pre, article code, article tt {
   font: 1em monospace;
   line-height: 1.5;
 }
 
-/* line 48, ../src/styles.scss */
+/* line 50, ../src/styles.scss */
 article tt {
   display: block;
   margin: 1.5em 0;
   line-height: 1.5;
 }
 
-/* line 50, ../src/styles.scss */
+/* line 52, ../src/styles.scss */
+aside p {
+  margin: 0 0 1.5em;
+}
+
+/* line 54, ../src/styles.scss */
+aside ul, article ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 55, ../src/styles.scss */
+aside ul {
+  list-style-type: circle;
+}
+
+/* line 56, ../src/styles.scss */
+aside ol {
+  list-style-type: decimal;
+}
+
+/* line 58, ../src/styles.scss */
+aside dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 59, ../src/styles.scss */
+aside dl dt {
+  font-weight: bold;
+}
+
+/* line 60, ../src/styles.scss */
+aside dl dd {
+  margin-left: 1.5em;
+}
+
+/* line 62, ../src/styles.scss */
+aside abbr, article acronym {
+  border-bottom: 1px dotted #000;
+}
+
+/* line 63, ../src/styles.scss */
+aside address {
+  margin-top: 1.5em;
+  font-style: italic;
+}
+
+/* line 64, ../src/styles.scss */
+aside del {
+  color: #000;
+}
+
+/* line 66, ../src/styles.scss */
+a {
+  color: #009;
+  text-decoration: none;
+}
+
+/* line 67, ../src/styles.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 69, ../src/styles.scss */
+aside blockquote {
+  margin: 1.5em;
+}
+
+/* line 70, ../src/styles.scss */
+aside strong {
+  font-weight: bold;
+}
+
+/* line 71, ../src/styles.scss */
+aside em, article dfn {
+  font-style: italic;
+}
+
+/* line 72, ../src/styles.scss */
+aside dfn {
+  font-weight: bold;
+}
+
+/* line 73, ../src/styles.scss */
+aside pre, article code {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 74, ../src/styles.scss */
+aside pre, article code, article tt {
+  font: 1em monospace;
+  line-height: 1.5;
+}
+
+/* line 75, ../src/styles.scss */
+aside tt {
+  display: block;
+  margin: 1.5em 0;
+  line-height: 1.5;
+}
+
+/* line 77, ../src/styles.scss */
 .hidden {
   display: none;
 }
 
-/* line 52, ../src/styles.scss */
+/* line 79, ../src/styles.scss */
 h1 {
   font-size: 42px;
   line-height: 48px;
 }
 
-/* line 56, ../src/styles.scss */
+/* line 83, ../src/styles.scss */
 h2 {
   font-size: 26px;
   line-height: 36px;
 }
 
-/* line 64, ../src/styles.scss */
+/* line 91, ../src/styles.scss */
 section h1 {
   font-size: 26px;
   line-height: 36px;
 }
 
-/* line 65, ../src/styles.scss */
+/* line 92, ../src/styles.scss */
 section h2 {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 67, ../src/styles.scss */
+/* line 94, ../src/styles.scss */
 body {
   background: #e8e8e8;
   -webkit-tap-highlight-color: yellow;
 }
 
-/* line 71, ../src/styles.scss */
+/* line 98, ../src/styles.scss */
 header#header hgroup {
   background: url("http://www.gravatar.com/avatar/797eaf79f0fd5469ba53af0d56f2689c.png") top left no-repeat;
   padding: 0 0 0 100px;
 }
 
-/* line 76, ../src/styles.scss */
+/* line 103, ../src/styles.scss */
 form#search input {
-  width: 200px;
+  width: 240px;
   margin-bottom: 20px;
 }
 
-/* line 82, ../src/styles.scss */
-header#header ul li {
+/* line 109, ../src/styles.scss */
+header#header ul, aside#about #contact ul {
   list-style-type: none;
 }
 /* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
-header#header ul li, header#header ul li li {
+header#header ul, header#header ul li, aside#about #contact ul, aside#about #contact ul li {
   margin: 0px;
   padding: 0px;
   display: inline;
 }
 
-/* line 86, ../src/styles.scss */
+/* line 112, ../src/styles.scss */
+header#header ul li, aside#about #contact ul li {
+  margin-right: 8px;
+}
+
+/* line 114, ../src/styles.scss */
 header nav {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
   margin-top: 20px;
 }
 
-/* line 91, ../src/styles.scss */
+/* line 119, ../src/styles.scss */
 header {
   margin-bottom: 10px;
 }
 
-/* line 93, ../src/styles.scss */
-article div.asset-body img {
-  border: 1px solid #f0f0f0;
+/* line 121, ../src/styles.scss */
+article div.asset-body img, aside#about img {
+  border: 1px solid white;
   padding: 2px;
 }
 
-/* line 94, ../src/styles.scss */
+/* line 122, ../src/styles.scss */
 article footer h3 {
   font-size: 16px;
   line-height: 24px;
@@ -228,7 +334,7 @@ article footer h3 {
   font-weight: normal;
 }
 
-/* line 99, ../src/styles.scss */
+/* line 127, ../src/styles.scss */
 article footer ul {
   list-style-type: none;
 }
@@ -239,49 +345,50 @@ article footer ul, article footer ul li {
   display: inline;
 }
 
-/* line 104, ../src/styles.scss */
+/* line 132, ../src/styles.scss */
 section#trackbacks, article.comment {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
   margin-top: 10px;
 }
 
-/* line 108, ../src/styles.scss */
+/* line 136, ../src/styles.scss */
 section.comments-open {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
 }
 
-/* line 111, ../src/styles.scss */
+/* line 139, ../src/styles.scss */
 section#trackbacks, section#comments {
   padding-left: 20px;
 }
 
-/* line 113, ../src/styles.scss */
+/* line 140, ../src/styles.scss */
+section#trackbacks h1, section#comments h1 {
+  font-size: 20px;
+}
+
+/* line 143, ../src/styles.scss */
 nav#prev-next-nav {
   border-top: 1px solid black;
   margin-top: 20px;
   padding-top: 20px;
+  font-size: larger;
 }
 
-/* line 118, ../src/styles.scss */
-div#articles {
-  float: left;
-  width: 69%;
-}
-
-/* line 119, ../src/styles.scss */
-aside#sidebar {
-  float: right;
-  width: 30%;
-}
-
-/* line 121, ../src/styles.scss */
+/* line 150, ../src/styles.scss */
 footer {
+  border-top: 1px solid black;
   margin: 40px 0 40px 0;
+  padding-top: 10px;
+}
+
+/* line 155, ../src/styles.scss */
+article footer {
+  border: none;
 }
 
 /* Archive */
-/* line 127, ../src/styles.scss */
+/* line 159, ../src/styles.scss */
 body.mt-archive-index div#articles ul {
   list-style: none;
 }
@@ -292,29 +399,72 @@ body.mt-archive-index div#articles ul li {
   margin-left: 0px;
 }
 
-/* line 128, ../src/styles.scss */
+/* line 160, ../src/styles.scss */
 body.mt-archive-index span.icon-comment {
   display: none;
 }
 
 /* Search */
-/* line 132, ../src/styles.scss */
+/* line 164, ../src/styles.scss */
 body.mt-search-results h1.search-results-header {
   font-size: 16px;
   line-height: 24px;
   margin: 20px 0 20px 0;
 }
 
-/* line 133, ../src/styles.scss */
+/* line 165, ../src/styles.scss */
 body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
   display: none;
 }
 
-/* line 134, ../src/styles.scss */
+/* line 166, ../src/styles.scss */
 body.mt-search-results article.entry-asset {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
   margin-bottom: 20px;
+}
+
+/* Aside - Sidebar */
+/* line 169, ../src/styles.scss */
+aside#sidebar img {
+  border: 5px solid white;
+}
+
+/* Aside - About */
+/* line 172, ../src/styles.scss */
+aside#about {
+  float: left;
+  width: 100%;
+}
+
+/* line 173, ../src/styles.scss */
+aside#about div#contact, aside#about div#summary {
+  margin-top: 20px;
+}
+
+/* line 174, ../src/styles.scss */
+aside#about h1 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* Links */
+/* line 177, ../src/styles.scss */
+header#header nav ul li.email, aside#about div#contact ul li.email {
+  background: url("/ui/img/icons/email.png") center left no-repeat;
+  padding-left: 20px;
+}
+
+/* line 178, ../src/styles.scss */
+header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
+  background: url("/ui/img/icons/twitter.png") center left no-repeat;
+  padding-left: 20px;
+}
+
+/* line 179, ../src/styles.scss */
+header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
+  background: url("/ui/img/icons/linkedin.png") center left no-repeat;
+  padding-left: 20px;
 }
 
 /* Flexible layouts */
@@ -324,6 +474,31 @@ body.mt-search-results article.entry-asset {
 body {
   width: 648px;
   padding: 84px 60px 0;
+  /* This is where we adjust the layout based on the viewport */
+}
+
+/* line 8, ../src/partials/_8.scss */
+div#articles {
+  float: left;
+  width: 100%;
+}
+
+/* line 9, ../src/partials/_8.scss */
+aside#sidebar {
+  display: none;
+}
+
+/* line 10, ../src/partials/_8.scss */
+aside#about #summary {
+  float: left;
+  width: 60%;
+  padding-right: 8px;
+}
+
+/* line 11, ../src/partials/_8.scss */
+aside#about #contact {
+  float: right;
+  width: 39%;
 }
 
 /* 13-column layout
@@ -333,6 +508,47 @@ body {
   body {
     width: 1068px;
     padding: 96px 72px 0;
+  }
+
+  /* This is where we adjust the layout based on the viewport */
+  /* line 9, ../src/partials/_13.scss */
+  div#articles article {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+  }
+
+  /* line 10, ../src/partials/_13.scss */
+  div#articles aside#sidebar {
+    float: left;
+    width: 38%;
+    display: inline;
+    clear: right;
+  }
+
+  /* line 11, ../src/partials/_13.scss */
+  div#articles nav {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 12, ../src/partials/_13.scss */
+  aside#sidebar div {
+    float: left;
+    padding-left: 40px;
+  }
+
+  /* line 13, ../src/partials/_13.scss */
+  aside#about #summary {
+    float: left;
+    width: 60%;
+    padding-right: 40px;
+  }
+
+  /* line 14, ../src/partials/_13.scss */
+  aside#about #contact {
+    float: left;
+    width: 30%;
   }
 }
 
@@ -362,6 +578,36 @@ body {
   h3 {
     font-size: 13px;
     line-height: 18px;
+  }
+
+  /* line 12, ../src/partials/_5.scss */
+  div#articles {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 13, ../src/partials/_5.scss */
+  aside#sidebar {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 14, ../src/partials/_5.scss */
+  aside#about #summary {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 15, ../src/partials/_5.scss */
+  aside#about #summary ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 16, ../src/partials/_5.scss */
+  aside#about #contact {
+    float: left;
+    width: 100%;
   }
 }
 
@@ -395,9 +641,62 @@ body {
   }
 
   /* line 13, ../src/partials/_3.scss */
+  aside#about h1, section h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* line 14, ../src/partials/_3.scss */
   header#header hgroup {
     background: none;
     padding: 0px;
+  }
+
+  /* line 15, ../src/partials/_3.scss */
+  div#articles {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 16, ../src/partials/_3.scss */
+  aside#sidebar {
+    display: none;
+  }
+
+  /* line 17, ../src/partials/_3.scss */
+  aside#about #summary {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 18, ../src/partials/_3.scss */
+  aside#about #summary ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 19, ../src/partials/_3.scss */
+  aside#about #contact {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 20, ../src/partials/_3.scss */
+  header#header nav ul li.email, aside#about div#contact ul li.email {
+    background: none;
+    padding: 0;
+  }
+
+  /* line 21, ../src/partials/_3.scss */
+  header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
+    background: none;
+    padding: 0;
+  }
+
+  /* line 22, ../src/partials/_3.scss */
+  header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
+    background: none;
+    padding: 0;
   }
 }
 

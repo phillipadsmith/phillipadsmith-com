@@ -3,4 +3,14 @@
 
 @media only screen and (min-width: 1212px) {
   body {
-    @include grid(13); } }
+    @include grid(13);
+    } 
+    /* This is where we adjust the layout based on the viewport */
+    div#articles article { float: left; width: 60%; padding-right:20px }
+    div#articles aside#sidebar { float: left; width: 38%; display: inline; clear: right; }
+    div#articles nav { float: left; width: 100%; }
+    aside#sidebar div { float: left; padding-left: 40px; }
+    aside#about #summary { float: left; width: 60%; padding-right: 40px; }
+    aside#about #contact { float: left; width: 30%; }
+}
+

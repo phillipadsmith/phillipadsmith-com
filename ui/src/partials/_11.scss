@@ -1,6 +1,12 @@
 /* 11-column layout
  * 984 px layout for those wanting something close to 960 px */
 
+/* NOT CURRENTLY USED */
+
 @media only screen and (max-width: 1211px) and (min-width: 984px) {
   body {
-    @include grid(11); } }
+    @include grid(11); 
+
+    /* This is where we adjust the layout based on the viewport */
+    } 
+}

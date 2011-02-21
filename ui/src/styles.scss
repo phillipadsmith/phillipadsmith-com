@@ -17,7 +17,9 @@ $highlight-color: rgb(255, 255, 0);
     border-bottom: 1px solid $border-color;
     padding: 10px 0 10px 0;
 }
-
+@mixin medium {
+  font-size: 20px;
+}
 
 /* Text elements
 -------------------------------------------------------------- */
@@ -47,6 +49,31 @@ article pre, article code { margin: 1.5em 0; white-space: pre; }
 article pre, article code, article tt { font: 1em monospace; line-height: 1.5; } 
 article tt { display: block; margin: 1.5em 0; line-height: 1.5; }
 
+aside p { margin: 0 0 1.5em; }
+ 
+aside ul, article ol { margin: 0 1.5em 1.5em 1.5em; }
+aside ul { list-style-type: circle; }
+aside ol { list-style-type: decimal; }
+ 
+aside dl { margin: 0 0 1.5em 0; }
+aside dl dt { font-weight: bold; }
+aside dl dd { margin-left: 1.5em; }
+ 
+aside abbr, article acronym { border-bottom: 1px dotted #000; }
+aside address { margin-top: 1.5em; font-style: italic; }
+aside del { color: #000; }
+ 
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ 
+aside blockquote { margin: 1.5em; }
+aside strong { font-weight: bold; }
+aside em, article dfn { font-style: italic; }
+aside dfn { font-weight: bold; }
+aside pre, article code { margin: 1.5em 0; white-space: pre; }
+aside pre, article code, article tt { font: 1em monospace; line-height: 1.5; } 
+aside tt { display: block; margin: 1.5em 0; line-height: 1.5; }
+
 .hidden { display: none; }
 
 h1 {
@@ -74,14 +101,15 @@ header#header hgroup {
 }
 
 form#search input {
-    width: 200px;
+    width: 240px;
     margin-bottom: 20px;
 }
 
 
-header#header ul li {
+header#header ul, aside#about #contact ul {
     @include inline-list;
 }
+header#header ul li, aside#about #contact ul li { margin-right: 8px; }
 
 header nav {
     @include borders;
@@ -90,7 +118,7 @@ header nav {
 
 header { margin-bottom: 10px; }
 
-article div.asset-body img { border: 1px solid $border-color; padding: 2px;}
+article div.asset-body img, aside#about img { border: 1px solid white; padding: 2px;}
 article footer h3 { 
     @include normal;
     display: inline; 
@@ -106,21 +134,25 @@ section#trackbacks, article.comment {
     margin-top: 10px;
 }
 section.comments-open {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 section#trackbacks, section#comments { padding-left: 20px; }
+section#trackbacks h1, section#comments h1 { @include medium }
+
 
 nav#prev-next-nav {
     border-top: 1px solid black;
     margin-top: 20px;
     padding-top: 20px;
+    font-size: larger;
 }
-div#articles { float: left; width: 69%; }
-aside#sidebar { float: right; width: 30%;
-}
+
 footer {
+    border-top: 1px solid black;
     margin: 40px 0 40px 0;
+    padding-top: 10px;
 }
+article footer { border: none; }
 
 /* Archive */
 
@@ -132,6 +164,20 @@ body.mt-archive-index span.icon-comment { display: none; }
 body.mt-search-results h1.search-results-header { @include normal; margin: 20px 0 20px 0; }
 body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open { display: none; }
 body.mt-search-results article.entry-asset { @include borders; margin-bottom: 20px; }
+
+/* Aside - Sidebar */
+aside#sidebar img { border: 5px solid rgb(255,255,255); }
+
+/* Aside - About */
+aside#about { float:left; width: 100%; }
+aside#about div#contact, aside#about div#summary { margin-top: 20px; }
+aside#about h1 { @include big  }
+
+/* Links */
+header#header nav ul li.email, aside#about div#contact ul li.email { background: url('/ui/img/icons/email.png') center left no-repeat; padding-left: 20px; }
+header#header nav ul li.twitter, aside#about div#contact ul li.twitter  { background: url('/ui/img/icons/twitter.png') center left no-repeat; padding-left: 20px; }
+header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin  { background: url('/ui/img/icons/linkedin.png') center left no-repeat; padding-left: 20px; }
+
 
 /* Flexible layouts */ 
 @import "partials/8";
