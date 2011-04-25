@@ -6,6 +6,13 @@
 @import "lessframework/reset";
 @import "lessframework/text/15";
 
+/* Flexible layouts */ 
+@import "partials/8";
+@import "partials/13";
+@import "partials/5";
+@import "partials/3";
+@import "partials/iphone4";
+
 /* Compas */
 @import "compass/utilities/lists";
 
@@ -128,17 +135,28 @@ article footer ul {
     @include inline-list;
 }
 
+/* Comments & Trackbacks */
 
-section#trackbacks, article.comment {
+div#articles article section#trackbacks, div#articles article article.comment {
     @include borders;
     margin-top: 10px;
+    float: left;
+    width: 99%;
 }
+div#articles article article.comment footer { margin-top: 0; padding-top: 0; }
+
 section.comments-open {
     margin: 20px 0 20px 0;
 }
 section#trackbacks, section#comments { padding-left: 20px; }
 section#trackbacks h1, section#comments h1 { @include medium }
 
+form#comments-form input#comment-author,
+form#comments-form input#comment-email,
+form#comments-form input#comment-url { 
+    display: block;
+    margin-bottom: 10px;
+}
 
 nav#prev-next-nav {
     @include borders;
@@ -180,11 +198,6 @@ header#header nav ul li.twitter, aside#about div#contact ul li.twitter  { backgr
 header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin  { background: url('/ui/img/icons/linkedin.png') center left no-repeat; padding-left: 20px; }
 
 
-/* Flexible layouts */ 
-@import "partials/8";
-@import "partials/13";
-@import "partials/5";
-@import "partials/3";
-@import "partials/iphone4";
+
 
 

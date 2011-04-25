@@ -40,434 +40,6 @@ body {
   font: 16px/24px Helvetica, Arial, sans-serif;
 }
 
-/* Compas */
-/* Text elements
--------------------------------------------------------------- */
-/* line 27, ../src/styles.scss */
-article p {
-  margin: 0 0 1.5em;
-}
-
-/* line 29, ../src/styles.scss */
-article ul, article ol {
-  margin: 0 1.5em 1.5em 1.5em;
-}
-
-/* line 30, ../src/styles.scss */
-article ul {
-  list-style-type: circle;
-}
-
-/* line 31, ../src/styles.scss */
-article ol {
-  list-style-type: decimal;
-}
-
-/* line 33, ../src/styles.scss */
-article dl {
-  margin: 0 0 1.5em 0;
-}
-
-/* line 34, ../src/styles.scss */
-article dl dt {
-  font-weight: bold;
-}
-
-/* line 35, ../src/styles.scss */
-article dl dd {
-  margin-left: 1.5em;
-}
-
-/* line 37, ../src/styles.scss */
-article abbr, article acronym {
-  border-bottom: 1px dotted #000;
-}
-
-/* line 38, ../src/styles.scss */
-article address {
-  margin-top: 1.5em;
-  font-style: italic;
-}
-
-/* line 39, ../src/styles.scss */
-article del {
-  color: #000;
-}
-
-/* line 41, ../src/styles.scss */
-a {
-  color: #009;
-  text-decoration: none;
-}
-
-/* line 42, ../src/styles.scss */
-a:hover {
-  text-decoration: underline;
-}
-
-/* line 44, ../src/styles.scss */
-article blockquote {
-  margin: 1.5em;
-}
-
-/* line 45, ../src/styles.scss */
-article strong {
-  font-weight: bold;
-}
-
-/* line 46, ../src/styles.scss */
-article em, article dfn {
-  font-style: italic;
-}
-
-/* line 47, ../src/styles.scss */
-article dfn {
-  font-weight: bold;
-}
-
-/* line 48, ../src/styles.scss */
-article pre, article code {
-  margin: 1.5em 0;
-  white-space: pre;
-}
-
-/* line 49, ../src/styles.scss */
-article pre, article code, article tt {
-  font: 1em monospace;
-  line-height: 1.5;
-}
-
-/* line 50, ../src/styles.scss */
-article tt {
-  display: block;
-  margin: 1.5em 0;
-  line-height: 1.5;
-}
-
-/* line 52, ../src/styles.scss */
-aside p {
-  margin: 0 0 1.5em;
-}
-
-/* line 54, ../src/styles.scss */
-aside ul, article ol {
-  margin: 0 1.5em 1.5em 1.5em;
-}
-
-/* line 55, ../src/styles.scss */
-aside ul {
-  list-style-type: circle;
-}
-
-/* line 56, ../src/styles.scss */
-aside ol {
-  list-style-type: decimal;
-}
-
-/* line 58, ../src/styles.scss */
-aside dl {
-  margin: 0 0 1.5em 0;
-}
-
-/* line 59, ../src/styles.scss */
-aside dl dt {
-  font-weight: bold;
-}
-
-/* line 60, ../src/styles.scss */
-aside dl dd {
-  margin-left: 1.5em;
-}
-
-/* line 62, ../src/styles.scss */
-aside abbr, article acronym {
-  border-bottom: 1px dotted #000;
-}
-
-/* line 63, ../src/styles.scss */
-aside address {
-  margin-top: 1.5em;
-  font-style: italic;
-}
-
-/* line 64, ../src/styles.scss */
-aside del {
-  color: #000;
-}
-
-/* line 66, ../src/styles.scss */
-a {
-  color: #009;
-  text-decoration: none;
-}
-
-/* line 67, ../src/styles.scss */
-a:hover {
-  text-decoration: underline;
-}
-
-/* line 69, ../src/styles.scss */
-aside blockquote {
-  margin: 1.5em;
-}
-
-/* line 70, ../src/styles.scss */
-aside strong {
-  font-weight: bold;
-}
-
-/* line 71, ../src/styles.scss */
-aside em, article dfn {
-  font-style: italic;
-}
-
-/* line 72, ../src/styles.scss */
-aside dfn {
-  font-weight: bold;
-}
-
-/* line 73, ../src/styles.scss */
-aside pre, article code {
-  margin: 1.5em 0;
-  white-space: pre;
-}
-
-/* line 74, ../src/styles.scss */
-aside pre, article code, article tt {
-  font: 1em monospace;
-  line-height: 1.5;
-}
-
-/* line 75, ../src/styles.scss */
-aside tt {
-  display: block;
-  margin: 1.5em 0;
-  line-height: 1.5;
-}
-
-/* line 77, ../src/styles.scss */
-.hidden {
-  display: none;
-}
-
-/* line 79, ../src/styles.scss */
-h1 {
-  font-size: 42px;
-  line-height: 48px;
-}
-
-/* line 83, ../src/styles.scss */
-h2 {
-  font-size: 26px;
-  line-height: 36px;
-}
-
-/* line 91, ../src/styles.scss */
-section h1 {
-  font-size: 26px;
-  line-height: 36px;
-}
-
-/* line 92, ../src/styles.scss */
-section h2 {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-/* line 94, ../src/styles.scss */
-body {
-  background: #e8e8e8;
-  -webkit-tap-highlight-color: yellow;
-}
-
-/* line 98, ../src/styles.scss */
-header#header hgroup {
-  background: url("http://www.gravatar.com/avatar/797eaf79f0fd5469ba53af0d56f2689c.png") top left no-repeat;
-  padding: 0 0 0 100px;
-}
-
-/* line 103, ../src/styles.scss */
-form#search input {
-  width: 240px;
-  margin-bottom: 20px;
-}
-
-/* line 109, ../src/styles.scss */
-header#header ul, aside#about #contact ul {
-  list-style-type: none;
-}
-/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
-header#header ul, header#header ul li, aside#about #contact ul, aside#about #contact ul li {
-  margin: 0px;
-  padding: 0px;
-  display: inline;
-}
-
-/* line 112, ../src/styles.scss */
-header#header ul li, aside#about #contact ul li {
-  margin-right: 8px;
-}
-
-/* line 114, ../src/styles.scss */
-header nav {
-  border-bottom: 1px solid #f0f0f0;
-  padding: 10px 0 10px 0;
-  margin-top: 20px;
-}
-
-/* line 119, ../src/styles.scss */
-header {
-  margin-bottom: 10px;
-}
-
-/* line 121, ../src/styles.scss */
-article div.asset-body img, aside#about img {
-  border: 1px solid white;
-  padding: 2px;
-}
-
-/* line 122, ../src/styles.scss */
-article footer h3 {
-  font-size: 16px;
-  line-height: 24px;
-  display: inline;
-  font-weight: normal;
-}
-
-/* line 127, ../src/styles.scss */
-article footer ul {
-  list-style-type: none;
-}
-/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
-article footer ul, article footer ul li {
-  margin: 0px;
-  padding: 0px;
-  display: inline;
-}
-
-/* line 132, ../src/styles.scss */
-section#trackbacks, article.comment {
-  border-bottom: 1px solid #f0f0f0;
-  padding: 10px 0 10px 0;
-  margin-top: 10px;
-}
-
-/* line 136, ../src/styles.scss */
-section.comments-open {
-  margin: 20px 0 20px 0;
-}
-
-/* line 139, ../src/styles.scss */
-section#trackbacks, section#comments {
-  padding-left: 20px;
-}
-
-/* line 140, ../src/styles.scss */
-section#trackbacks h1, section#comments h1 {
-  font-size: 20px;
-}
-
-/* line 143, ../src/styles.scss */
-nav#prev-next-nav {
-  border-bottom: 1px solid #f0f0f0;
-  padding: 10px 0 10px 0;
-  margin-top: 20px;
-  padding-top: 20px;
-  font-size: larger;
-}
-
-/* line 151, ../src/styles.scss */
-footer {
-  border-top: 1px solid black;
-  margin: 40px 0 40px 0;
-  padding-top: 10px;
-}
-
-/* line 156, ../src/styles.scss */
-article footer {
-  border: none;
-}
-
-/* Archive */
-/* line 160, ../src/styles.scss */
-body.mt-archive-index div#articles ul {
-  list-style: none;
-}
-/* line 11, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
-body.mt-archive-index div#articles ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-}
-
-/* line 161, ../src/styles.scss */
-body.mt-archive-index span.icon-comment {
-  display: none;
-}
-
-/* Search */
-/* line 165, ../src/styles.scss */
-body.mt-search-results h1.search-results-header {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 20px 0 20px 0;
-}
-
-/* line 166, ../src/styles.scss */
-body.mt-search-results article.entry-asset footer, body.mt-search-results section#trackbacks, body.mt-search-results .trackbacks-info, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
-  display: none;
-}
-
-/* line 167, ../src/styles.scss */
-body.mt-search-results article.entry-asset {
-  border-bottom: 1px solid #f0f0f0;
-  padding: 10px 0 10px 0;
-  margin-bottom: 20px;
-}
-
-/* Aside - Sidebar */
-/* line 170, ../src/styles.scss */
-aside#sidebar img {
-  border: 5px solid white;
-}
-
-/* Aside - About */
-/* line 173, ../src/styles.scss */
-aside#about {
-  float: left;
-  width: 100%;
-}
-
-/* line 174, ../src/styles.scss */
-aside#about div#contact, aside#about div#summary {
-  margin-top: 20px;
-}
-
-/* line 175, ../src/styles.scss */
-aside#about h1 {
-  font-size: 26px;
-  line-height: 36px;
-}
-
-/* Links */
-/* line 178, ../src/styles.scss */
-header#header nav ul li.email, aside#about div#contact ul li.email {
-  background: url("/ui/img/icons/email.png") center left no-repeat;
-  padding-left: 20px;
-}
-
-/* line 179, ../src/styles.scss */
-header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
-  background: url("/ui/img/icons/twitter.png") center left no-repeat;
-  padding-left: 20px;
-}
-
-/* line 180, ../src/styles.scss */
-header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
-  background: url("/ui/img/icons/linkedin.png") center left no-repeat;
-  padding-left: 20px;
-}
-
 /* Flexible layouts */
 /* Default 8-column layout
  * For tablets at 768 px, netbooks, and old browsers. */
@@ -620,6 +192,11 @@ section#comments article {
     float: left;
     width: 100%;
   }
+
+  /* line 17, ../src/partials/_5.scss */
+  section#comments article {
+    width: 100%;
+  }
 }
 
 /* 3-column layout
@@ -719,3 +296,447 @@ section#comments article {
 /* Overrides for iPhone 4
  * and other high device-pixel-ratio devices */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {}
+/* Compas */
+/* Text elements
+-------------------------------------------------------------- */
+/* line 34, ../src/styles.scss */
+article p {
+  margin: 0 0 1.5em;
+}
+
+/* line 36, ../src/styles.scss */
+article ul, article ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 37, ../src/styles.scss */
+article ul {
+  list-style-type: circle;
+}
+
+/* line 38, ../src/styles.scss */
+article ol {
+  list-style-type: decimal;
+}
+
+/* line 40, ../src/styles.scss */
+article dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 41, ../src/styles.scss */
+article dl dt {
+  font-weight: bold;
+}
+
+/* line 42, ../src/styles.scss */
+article dl dd {
+  margin-left: 1.5em;
+}
+
+/* line 44, ../src/styles.scss */
+article abbr, article acronym {
+  border-bottom: 1px dotted #000;
+}
+
+/* line 45, ../src/styles.scss */
+article address {
+  margin-top: 1.5em;
+  font-style: italic;
+}
+
+/* line 46, ../src/styles.scss */
+article del {
+  color: #000;
+}
+
+/* line 48, ../src/styles.scss */
+a {
+  color: #009;
+  text-decoration: none;
+}
+
+/* line 49, ../src/styles.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 51, ../src/styles.scss */
+article blockquote {
+  margin: 1.5em;
+}
+
+/* line 52, ../src/styles.scss */
+article strong {
+  font-weight: bold;
+}
+
+/* line 53, ../src/styles.scss */
+article em, article dfn {
+  font-style: italic;
+}
+
+/* line 54, ../src/styles.scss */
+article dfn {
+  font-weight: bold;
+}
+
+/* line 55, ../src/styles.scss */
+article pre, article code {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 56, ../src/styles.scss */
+article pre, article code, article tt {
+  font: 1em monospace;
+  line-height: 1.5;
+}
+
+/* line 57, ../src/styles.scss */
+article tt {
+  display: block;
+  margin: 1.5em 0;
+  line-height: 1.5;
+}
+
+/* line 59, ../src/styles.scss */
+aside p {
+  margin: 0 0 1.5em;
+}
+
+/* line 61, ../src/styles.scss */
+aside ul, article ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+/* line 62, ../src/styles.scss */
+aside ul {
+  list-style-type: circle;
+}
+
+/* line 63, ../src/styles.scss */
+aside ol {
+  list-style-type: decimal;
+}
+
+/* line 65, ../src/styles.scss */
+aside dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 66, ../src/styles.scss */
+aside dl dt {
+  font-weight: bold;
+}
+
+/* line 67, ../src/styles.scss */
+aside dl dd {
+  margin-left: 1.5em;
+}
+
+/* line 69, ../src/styles.scss */
+aside abbr, article acronym {
+  border-bottom: 1px dotted #000;
+}
+
+/* line 70, ../src/styles.scss */
+aside address {
+  margin-top: 1.5em;
+  font-style: italic;
+}
+
+/* line 71, ../src/styles.scss */
+aside del {
+  color: #000;
+}
+
+/* line 73, ../src/styles.scss */
+a {
+  color: #009;
+  text-decoration: none;
+}
+
+/* line 74, ../src/styles.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 76, ../src/styles.scss */
+aside blockquote {
+  margin: 1.5em;
+}
+
+/* line 77, ../src/styles.scss */
+aside strong {
+  font-weight: bold;
+}
+
+/* line 78, ../src/styles.scss */
+aside em, article dfn {
+  font-style: italic;
+}
+
+/* line 79, ../src/styles.scss */
+aside dfn {
+  font-weight: bold;
+}
+
+/* line 80, ../src/styles.scss */
+aside pre, article code {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 81, ../src/styles.scss */
+aside pre, article code, article tt {
+  font: 1em monospace;
+  line-height: 1.5;
+}
+
+/* line 82, ../src/styles.scss */
+aside tt {
+  display: block;
+  margin: 1.5em 0;
+  line-height: 1.5;
+}
+
+/* line 84, ../src/styles.scss */
+.hidden {
+  display: none;
+}
+
+/* line 86, ../src/styles.scss */
+h1 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+/* line 90, ../src/styles.scss */
+h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* line 98, ../src/styles.scss */
+section h1 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* line 99, ../src/styles.scss */
+section h2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 101, ../src/styles.scss */
+body {
+  background: #e8e8e8;
+  -webkit-tap-highlight-color: yellow;
+}
+
+/* line 105, ../src/styles.scss */
+header#header hgroup {
+  background: url("http://www.gravatar.com/avatar/797eaf79f0fd5469ba53af0d56f2689c.png") top left no-repeat;
+  padding: 0 0 0 100px;
+}
+
+/* line 110, ../src/styles.scss */
+form#search input {
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+/* line 116, ../src/styles.scss */
+header#header ul, aside#about #contact ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+header#header ul, header#header ul li, aside#about #contact ul, aside#about #contact ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/* line 119, ../src/styles.scss */
+header#header ul li, aside#about #contact ul li {
+  margin-right: 8px;
+}
+
+/* line 121, ../src/styles.scss */
+header nav {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+}
+
+/* line 126, ../src/styles.scss */
+header {
+  margin-bottom: 10px;
+}
+
+/* line 128, ../src/styles.scss */
+article div.asset-body img, aside#about img {
+  border: 1px solid white;
+  padding: 2px;
+}
+
+/* line 129, ../src/styles.scss */
+article footer h3 {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline;
+  font-weight: normal;
+}
+
+/* line 134, ../src/styles.scss */
+article footer ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+article footer ul, article footer ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/* Comments & Trackbacks */
+/* line 140, ../src/styles.scss */
+div#articles article section#trackbacks, div#articles article article.comment {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-top: 10px;
+  float: left;
+  width: 99%;
+}
+
+/* line 146, ../src/styles.scss */
+div#articles article article.comment footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 148, ../src/styles.scss */
+section.comments-open {
+  margin: 20px 0 20px 0;
+}
+
+/* line 151, ../src/styles.scss */
+section#trackbacks, section#comments {
+  padding-left: 20px;
+}
+
+/* line 152, ../src/styles.scss */
+section#trackbacks h1, section#comments h1 {
+  font-size: 20px;
+}
+
+/* line 156, ../src/styles.scss */
+form#comments-form input#comment-author,
+form#comments-form input#comment-email,
+form#comments-form input#comment-url {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 161, ../src/styles.scss */
+nav#prev-next-nav {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+/* line 169, ../src/styles.scss */
+footer {
+  border-top: 1px solid black;
+  margin: 40px 0 40px 0;
+  padding-top: 10px;
+}
+
+/* line 174, ../src/styles.scss */
+article footer {
+  border: none;
+}
+
+/* Archive */
+/* line 178, ../src/styles.scss */
+body.mt-archive-index div#articles ul {
+  list-style: none;
+}
+/* line 11, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+body.mt-archive-index div#articles ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/* line 179, ../src/styles.scss */
+body.mt-archive-index span.icon-comment {
+  display: none;
+}
+
+/* Search */
+/* line 183, ../src/styles.scss */
+body.mt-search-results h1.search-results-header {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0 20px 0;
+}
+
+/* line 184, ../src/styles.scss */
+body.mt-search-results article.entry-asset footer, body.mt-search-results section#trackbacks, body.mt-search-results .trackbacks-info, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
+  display: none;
+}
+
+/* line 185, ../src/styles.scss */
+body.mt-search-results article.entry-asset {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+  margin-bottom: 20px;
+}
+
+/* Aside - Sidebar */
+/* line 188, ../src/styles.scss */
+aside#sidebar img {
+  border: 5px solid white;
+}
+
+/* Aside - About */
+/* line 191, ../src/styles.scss */
+aside#about {
+  float: left;
+  width: 100%;
+}
+
+/* line 192, ../src/styles.scss */
+aside#about div#contact, aside#about div#summary {
+  margin-top: 20px;
+}
+
+/* line 193, ../src/styles.scss */
+aside#about h1 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+/* Links */
+/* line 196, ../src/styles.scss */
+header#header nav ul li.email, aside#about div#contact ul li.email {
+  background: url("/ui/img/icons/email.png") center left no-repeat;
+  padding-left: 20px;
+}
+
+/* line 197, ../src/styles.scss */
+header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
+  background: url("/ui/img/icons/twitter.png") center left no-repeat;
+  padding-left: 20px;
+}
+
+/* line 198, ../src/styles.scss */
+header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
+  background: url("/ui/img/icons/linkedin.png") center left no-repeat;
+  padding-left: 20px;
+}
