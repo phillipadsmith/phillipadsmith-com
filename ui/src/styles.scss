@@ -141,11 +141,12 @@ section#trackbacks h1, section#comments h1 { @include medium }
 
 
 nav#prev-next-nav {
-    border-top: 1px solid black;
+    @include borders;
     margin-top: 20px;
     padding-top: 20px;
     font-size: larger;
 }
+
 
 footer {
     border-top: 1px solid black;
@@ -162,7 +163,7 @@ body.mt-archive-index span.icon-comment { display: none; }
 /* Search */
 
 body.mt-search-results h1.search-results-header { @include normal; margin: 20px 0 20px 0; }
-body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open { display: none; }
+body.mt-search-results article.entry-asset footer, body.mt-search-results section#trackbacks, body.mt-search-results .trackbacks-info, body.mt-search-results section#comments, body.mt-search-results section#comments-open { display: none; }
 body.mt-search-results article.entry-asset { @include borders; margin-bottom: 20px; }
 
 /* Aside - Sidebar */

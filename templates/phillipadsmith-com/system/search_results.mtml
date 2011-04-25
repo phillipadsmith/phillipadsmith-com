@@ -11,7 +11,7 @@
     /* ]]> */
     </script>
     <mt:Include module="HTML Head">
-    <title><mt:BlogName encode_html="1"> &ndash <mt:BlogDescription encode_html="1"> &ndash; Search Results</title>
+    <title><mt:BlogName encode_html="1"> - <mt:BlogDescription encode_html="1"> &ndash; Search Results</title>
     <mt:Ignore>Below Javascript adds ajax search capability</mt:Ignore>
     <script type="text/javascript">
     /* <![CDATA[ */
@@ -98,6 +98,7 @@
                                 </div><div class="autopagerize_insert_before"></div>
 
     <mt:Ignore><!-- Used with the ajax search capability of the new search class --></mt:Ignore>
+    <br clear="all" />
                                 <div class="content-nav">
                                     <mt:IfPreviousResults><a href="<mt:PreviousLink>" rel="prev" onclick="return swapContent(-1);">&lt; Previous</a>&nbsp;&nbsp;</mt:IfPreviousResults><mt:PagerBlock><mt:IfCurrentPage><mt:Var name="__value__"><mt:Else><a href="<mt:PagerLink>"><mt:Var name="__value__"></a></mt:IfCurrentPage><mt:Unless name="__last__">&nbsp;</mt:Unless></mt:PagerBlock><mt:IfMoreResults>&nbsp;&nbsp;<a href="<mt:NextLink>" rel="next" onclick="return swapContent();">Next &gt;</a></mt:IfMoreResults>
                                 </div>

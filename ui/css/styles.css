@@ -369,26 +369,27 @@ section#trackbacks h1, section#comments h1 {
 
 /* line 143, ../src/styles.scss */
 nav#prev-next-nav {
-  border-top: 1px solid black;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
   margin-top: 20px;
   padding-top: 20px;
   font-size: larger;
 }
 
-/* line 150, ../src/styles.scss */
+/* line 151, ../src/styles.scss */
 footer {
   border-top: 1px solid black;
   margin: 40px 0 40px 0;
   padding-top: 10px;
 }
 
-/* line 155, ../src/styles.scss */
+/* line 156, ../src/styles.scss */
 article footer {
   border: none;
 }
 
 /* Archive */
-/* line 159, ../src/styles.scss */
+/* line 160, ../src/styles.scss */
 body.mt-archive-index div#articles ul {
   list-style: none;
 }
@@ -399,25 +400,25 @@ body.mt-archive-index div#articles ul li {
   margin-left: 0px;
 }
 
-/* line 160, ../src/styles.scss */
+/* line 161, ../src/styles.scss */
 body.mt-archive-index span.icon-comment {
   display: none;
 }
 
 /* Search */
-/* line 164, ../src/styles.scss */
+/* line 165, ../src/styles.scss */
 body.mt-search-results h1.search-results-header {
   font-size: 16px;
   line-height: 24px;
   margin: 20px 0 20px 0;
 }
 
-/* line 165, ../src/styles.scss */
-body.mt-search-results section#trackbacks, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
+/* line 166, ../src/styles.scss */
+body.mt-search-results article.entry-asset footer, body.mt-search-results section#trackbacks, body.mt-search-results .trackbacks-info, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
   display: none;
 }
 
-/* line 166, ../src/styles.scss */
+/* line 167, ../src/styles.scss */
 body.mt-search-results article.entry-asset {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
@@ -425,43 +426,43 @@ body.mt-search-results article.entry-asset {
 }
 
 /* Aside - Sidebar */
-/* line 169, ../src/styles.scss */
+/* line 170, ../src/styles.scss */
 aside#sidebar img {
   border: 5px solid white;
 }
 
 /* Aside - About */
-/* line 172, ../src/styles.scss */
+/* line 173, ../src/styles.scss */
 aside#about {
   float: left;
   width: 100%;
 }
 
-/* line 173, ../src/styles.scss */
+/* line 174, ../src/styles.scss */
 aside#about div#contact, aside#about div#summary {
   margin-top: 20px;
 }
 
-/* line 174, ../src/styles.scss */
+/* line 175, ../src/styles.scss */
 aside#about h1 {
   font-size: 26px;
   line-height: 36px;
 }
 
 /* Links */
-/* line 177, ../src/styles.scss */
+/* line 178, ../src/styles.scss */
 header#header nav ul li.email, aside#about div#contact ul li.email {
   background: url("/ui/img/icons/email.png") center left no-repeat;
   padding-left: 20px;
 }
 
-/* line 178, ../src/styles.scss */
+/* line 179, ../src/styles.scss */
 header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
   background: url("/ui/img/icons/twitter.png") center left no-repeat;
   padding-left: 20px;
 }
 
-/* line 179, ../src/styles.scss */
+/* line 180, ../src/styles.scss */
 header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
   background: url("/ui/img/icons/linkedin.png") center left no-repeat;
   padding-left: 20px;
@@ -491,7 +492,7 @@ aside#sidebar {
 /* line 10, ../src/partials/_8.scss */
 aside#about #summary {
   float: left;
-  width: 60%;
+  width: 59%;
   padding-right: 8px;
 }
 
@@ -499,6 +500,11 @@ aside#about #summary {
 aside#about #contact {
   float: right;
   width: 39%;
+}
+
+/* line 12, ../src/partials/_8.scss */
+section#comments article {
+  width: 100%;
 }
 
 /* 13-column layout
@@ -549,6 +555,11 @@ aside#about #contact {
   aside#about #contact {
     float: left;
     width: 30%;
+  }
+
+  /* line 15, ../src/partials/_13.scss */
+  section#comments article {
+    width: 100%;
   }
 }
 
@@ -697,6 +708,11 @@ aside#about #contact {
   header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
     background: none;
     padding: 0;
+  }
+
+  /* line 23, ../src/partials/_3.scss */
+  section#comments article {
+    width: 100%;
   }
 }
 

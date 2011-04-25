@@ -7,7 +7,8 @@ body {
 }
 div#articles { float: left; width: 100%; }
 aside#sidebar { display: none; }
-aside#about #summary { float: left; width: 60%; padding-right: 8px; }
+aside#about #summary { float: left; width: 59%; padding-right: 8px; }
 aside#about #contact { float: right; width: 39%; }
+section#comments article { width: 100%; }
 
 
