@@ -126,14 +126,7 @@ header nav {
 header { margin-bottom: 10px; }
 
 article div.asset-body img, aside#about img { border: 1px solid white; padding: 2px;}
-article footer h3 { 
-    @include normal;
-    display: inline; 
-    font-weight: normal;
-}
-article footer ul {
-    @include inline-list;
-}
+
 
 /* Comments & Trackbacks */
 
@@ -157,6 +150,13 @@ form#comments-form input#comment-url {
     display: block;
     margin-bottom: 10px;
 }
+div#comment-greeting { margin-bottom: 10px; }
+
+div.comment-error { color: #8A1F11; background: #FBE3E4; padding: 5px 5px 0 5px; margin-bottom: 10px; border: 2px solid #FBC2C4; }
+div.comment-pending { color: #264409; background: #E6EFC2; border: 1px solid #C6D880; padding: 5px 5px 0 5px; margin-bottom: 10px; }
+
+
+
 
 nav#prev-next-nav {
     @include borders;
@@ -171,8 +171,20 @@ footer {
     margin: 40px 0 40px 0;
     padding-top: 10px;
 }
-article footer { border: none; }
 
+article footer { 
+    border: none;
+    margin: 0;
+}
+
+article footer h3 { 
+    @include normal;
+    display: inline; 
+    font-weight: normal;
+}
+article footer ul {
+    @include inline-list;
+}
 /* Archive */
 
 body.mt-archive-index div#articles ul { @include no-bullets; }

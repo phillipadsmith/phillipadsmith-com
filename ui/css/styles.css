@@ -582,27 +582,8 @@ article div.asset-body img, aside#about img {
   padding: 2px;
 }
 
-/* line 129, ../src/styles.scss */
-article footer h3 {
-  font-size: 16px;
-  line-height: 24px;
-  display: inline;
-  font-weight: normal;
-}
-
-/* line 134, ../src/styles.scss */
-article footer ul {
-  list-style-type: none;
-}
-/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
-article footer ul, article footer ul li {
-  margin: 0px;
-  padding: 0px;
-  display: inline;
-}
-
 /* Comments & Trackbacks */
-/* line 140, ../src/styles.scss */
+/* line 133, ../src/styles.scss */
 div#articles article section#trackbacks, div#articles article article.comment {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
@@ -611,32 +592,55 @@ div#articles article section#trackbacks, div#articles article article.comment {
   width: 99%;
 }
 
-/* line 146, ../src/styles.scss */
+/* line 139, ../src/styles.scss */
 div#articles article article.comment footer {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 148, ../src/styles.scss */
+/* line 141, ../src/styles.scss */
 section.comments-open {
   margin: 20px 0 20px 0;
 }
 
-/* line 151, ../src/styles.scss */
+/* line 144, ../src/styles.scss */
 section#trackbacks, section#comments {
   padding-left: 20px;
 }
 
-/* line 152, ../src/styles.scss */
+/* line 145, ../src/styles.scss */
 section#trackbacks h1, section#comments h1 {
   font-size: 20px;
 }
 
-/* line 156, ../src/styles.scss */
+/* line 149, ../src/styles.scss */
 form#comments-form input#comment-author,
 form#comments-form input#comment-email,
 form#comments-form input#comment-url {
   display: block;
+  margin-bottom: 10px;
+}
+
+/* line 153, ../src/styles.scss */
+div#comment-greeting {
+  margin-bottom: 10px;
+}
+
+/* line 155, ../src/styles.scss */
+div.comment-error {
+  color: #8A1F11;
+  background: #FBE3E4;
+  padding: 5px 5px 0 5px;
+  margin-bottom: 10px;
+  border: 2px solid #FBC2C4;
+}
+
+/* line 156, ../src/styles.scss */
+div.comment-pending {
+  color: #264409;
+  background: #E6EFC2;
+  border: 1px solid #C6D880;
+  padding: 5px 5px 0 5px;
   margin-bottom: 10px;
 }
 
@@ -656,13 +660,33 @@ footer {
   padding-top: 10px;
 }
 
-/* line 174, ../src/styles.scss */
+/* line 175, ../src/styles.scss */
 article footer {
   border: none;
+  margin: 0;
+}
+
+/* line 180, ../src/styles.scss */
+article footer h3 {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline;
+  font-weight: normal;
+}
+
+/* line 185, ../src/styles.scss */
+article footer ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+article footer ul, article footer ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
 }
 
 /* Archive */
-/* line 178, ../src/styles.scss */
+/* line 190, ../src/styles.scss */
 body.mt-archive-index div#articles ul {
   list-style: none;
 }
@@ -673,25 +697,25 @@ body.mt-archive-index div#articles ul li {
   margin-left: 0px;
 }
 
-/* line 179, ../src/styles.scss */
+/* line 191, ../src/styles.scss */
 body.mt-archive-index span.icon-comment {
   display: none;
 }
 
 /* Search */
-/* line 183, ../src/styles.scss */
+/* line 195, ../src/styles.scss */
 body.mt-search-results h1.search-results-header {
   font-size: 16px;
   line-height: 24px;
   margin: 20px 0 20px 0;
 }
 
-/* line 184, ../src/styles.scss */
+/* line 196, ../src/styles.scss */
 body.mt-search-results article.entry-asset footer, body.mt-search-results section#trackbacks, body.mt-search-results .trackbacks-info, body.mt-search-results section#comments, body.mt-search-results section#comments-open {
   display: none;
 }
 
-/* line 185, ../src/styles.scss */
+/* line 197, ../src/styles.scss */
 body.mt-search-results article.entry-asset {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
@@ -699,43 +723,43 @@ body.mt-search-results article.entry-asset {
 }
 
 /* Aside - Sidebar */
-/* line 188, ../src/styles.scss */
+/* line 200, ../src/styles.scss */
 aside#sidebar img {
   border: 5px solid white;
 }
 
 /* Aside - About */
-/* line 191, ../src/styles.scss */
+/* line 203, ../src/styles.scss */
 aside#about {
   float: left;
   width: 100%;
 }
 
-/* line 192, ../src/styles.scss */
+/* line 204, ../src/styles.scss */
 aside#about div#contact, aside#about div#summary {
   margin-top: 20px;
 }
 
-/* line 193, ../src/styles.scss */
+/* line 205, ../src/styles.scss */
 aside#about h1 {
   font-size: 26px;
   line-height: 36px;
 }
 
 /* Links */
-/* line 196, ../src/styles.scss */
+/* line 208, ../src/styles.scss */
 header#header nav ul li.email, aside#about div#contact ul li.email {
   background: url("/ui/img/icons/email.png") center left no-repeat;
   padding-left: 20px;
 }
 
-/* line 197, ../src/styles.scss */
+/* line 209, ../src/styles.scss */
 header#header nav ul li.twitter, aside#about div#contact ul li.twitter {
   background: url("/ui/img/icons/twitter.png") center left no-repeat;
   padding-left: 20px;
 }
 
-/* line 198, ../src/styles.scss */
+/* line 210, ../src/styles.scss */
 header#header nav ul li.linkedin, aside#about div#contact ul li.linkedin {
   background: url("/ui/img/icons/linkedin.png") center left no-repeat;
   padding-left: 20px;
