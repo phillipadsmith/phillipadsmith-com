@@ -130,7 +130,7 @@ article div.asset-body img, aside#about img { border: 1px solid white; padding: 
 
 /* Comments & Trackbacks */
 
-div#articles article section#trackbacks, div#articles article article.comment {
+div#articles article article.trackbacks-content, div#articles article article.comment {
     @include borders;
     margin-top: 10px;
     float: left;

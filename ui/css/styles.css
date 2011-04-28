@@ -584,7 +584,7 @@ article div.asset-body img, aside#about img {
 
 /* Comments & Trackbacks */
 /* line 133, ../src/styles.scss */
-div#articles article section#trackbacks, div#articles article article.comment {
+div#articles article article.trackbacks-content, div#articles article article.comment {
   border-bottom: 1px solid #f0f0f0;
   padding: 10px 0 10px 0;
   margin-top: 10px;
